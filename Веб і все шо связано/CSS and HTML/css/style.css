@@ -1,0 +1,82 @@
+:root {
+    --color-primary-dark: #31261A;
+
+    --color-primary-white: #faf4ea;
+
+    --color-brand: #819b57
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.button-main {
+    color:var(--color-primary-white);
+    font-weight: 600;
+    background-color: var(--color-brand);
+    border: 2px solid #819867;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-main:hover {
+    background-color:transparent;
+    color:#819867
+}
+.button-main:active {
+    color:blueviolet
+}
+.header-link {
+    color:var(--color-primary-white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header-link:hover {
+    color:var(--color-brand);
+    line-height: 27px;
+}
+
+.hero-title {
+    color: var(--color-primary-white);
+    text-align: center;
+    font-size:128px;
+    font-weight: 900;
+    
+    
+}
+
+.hero-title .accent{
+    color:var(--color-brand);
+}
+.adventages-list {
+    color:var(--color-primary-white);
+    background-color: var(--color-brand);
+    
+}
+.section-title .accent {
+    color:var(--color-brand)
+}
+.traditions-text .shop-b{
+    text-transform: uppercase;
+    color:var(--color-brand);
+    font-weight: 600;
+}
+.traditions-text .time{
+    text-transform: lowercase;
+    color:var(--color-brand)
+}
+.adventages-items {
+    font-size: 20px;
+    font-weight: 300;
+}
